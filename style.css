@@ -1,0 +1,37 @@
+
+/* Jag gjorde det mesta i nyanser av svart och vitt för att det inte ska göra något om man är färgblind (jag har ingen aning om det är så det funkar men det var min anledning iaf) */
+body{
+	background-color: lightgrey; 
+}
+table, th, td{
+	border-collapse: collapse;
+	border:5px solid black;
+	padding: 15px;
+}
+.tabelltop{
+	background-color: white;
+}
+.tabell{
+	width: 165px;
+}
+h1{
+	font-size: 50px;
+}
+/* Färger till länkarna */
+a:link {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border: 2px solid black;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid black;
+}
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+}
